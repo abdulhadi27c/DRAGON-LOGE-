@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dragon Logo</title>
+  <style>
+    body {
+      background-color: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: sans-serif;
+    }
+
+    .card {
+      border: 5px solid #ff0000;
+      border-radius: 15px;
+      padding: 20px;
+      text-align: center;
+     /* box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);*/
+      max-width: 400px;
+      animation-name: card;
+      animation-duration: 5s;
+      animation-iteration-count:infinite;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .card h1 {
+      margin-top: 15px;
+      font-size: 2rem;
+      letter-spacing: 2px;
+    }
+
+    @keyframes card{
+     0%{
+         transform: translateX(0%);
+         background-color: aqua;
+         color: red;
+     }
+     25%{
+         transform: translateX(530px);
+         background-color: red;
+         color: black;
+     }
+     50%{
+         transform: translateY(150px);
+         background-color: black;
+         color: aqua;
+     }
+     75%{
+         transform: ;
+     }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRIZOxwoj_l8aEd1SpV787y3ID4uXYtQ_Iqg&s" alt="Dragon Logo">
+    <h1>DRAGON</h1>
+  </div>
+
+</body>
+</html>
